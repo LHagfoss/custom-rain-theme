@@ -146,3 +146,11 @@ return {
   },
 }
 ```
+
+### 5. Zed Editor (`~/.config/zed/themes/cozy-rain.json`)
+Copy the [cozy-rain.json](./cozy-rain.json) file to your local Zed themes configuration folder:
+```bash
+mkdir -p ~/.config/zed/themes
+cp cozy-rain.json ~/.config/zed/themes/
+```
+Then select **Cozy Rain** in your Zed theme selector (`Cmd + k` then `Cmd + t`).
