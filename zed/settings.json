@@ -1,0 +1,149 @@
+{
+    "diff_view_style": "split",
+    "agent_servers": {
+        "github-copilot-cli": {
+            "type": "registry",
+        },
+        "gemini": {
+            "type": "registry",
+        },
+    },
+    "cli_default_open_behavior": "new_window",
+    "format_on_save": "off",
+    "outline_panel": {
+        "dock": "left",
+    },
+    "collaboration_panel": {
+        "dock": "left",
+    },
+    "git_panel": {
+        "dock": "left",
+    },
+    "buffer_font_weight": 500.0,
+    "ui_font_family": ".ZedSans",
+    "tabs": {
+        "close_position": "right",
+    },
+    "title_bar": {
+        "show_onboarding_banner": false,
+        "show_branch_status_icon": true,
+        "show_menus": false,
+    },
+    "tab_bar": {
+        "show": false,
+    },
+    "toolbar": {
+        "quick_actions": false,
+    },
+    "project_panel": {
+        "hide_hidden": true,
+        "button": true,
+        "dock": "right",
+        "default_width": 400,
+        "hide_root": true,
+        "indent_guides": {
+            "show": "never"
+        },
+    },
+    "agent": {
+        "dock": "left",
+        "commit_message_model": {
+            "provider": "ollama",
+            "model": "qwen3.6:35b-a3b-mtp-q4_K_M",
+        },
+        "default_profile": "ask",
+        "default_model": {
+            "provider": "ollama",
+            "model": "qwen3.6:35b-a3b-mtp-q8_0",
+            "enable_thinking": true,
+        },
+        "favorite_models": [
+            {
+                "provider": "ollama",
+                "model": "qwen3.6:35b-a3b-mtp-q4_K_M",
+                "enable_thinking": true,
+            },
+            {
+                "provider": "copilot_chat",
+                "model": "gpt-5-mini",
+                "enable_thinking": false,
+            },
+            {
+                "provider": "ollama",
+                "model": "qwen3.6:35b-a3b-mtp-q8_0",
+                "enable_thinking": true,
+            },
+        ],
+        "model_parameters": [],
+    },
+    "session": {
+        "trust_all_worktrees": true,
+    },
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": true,
+    },
+    "status_bar": {
+        "experimental.show": false,
+    },
+    "scrollbar": {
+        "axes": {
+            "vertical": false,
+        },
+    },
+    "buffer_font_fallbacks": ["monospace", "monospace", "Hack Nerd Font"],
+    "base_keymap": "VSCode",
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Zed (Default)",
+        "dark": "Soft Charmed Icons",
+    },
+    "ui_font_size": 18,
+    "buffer_font_size": 16.0,
+    "theme": {
+        "mode": "dark",
+        "light": "Ayu Light",
+        "dark": "Cozy Rain",
+    },
+    "buffer_font_family": ".ZedMono",
+    "buffer_font_features": {
+        "ligatures": true,
+    },
+    "tab_size": 4,
+    "languages": {
+        "TypeScript": {
+            "tab_size": 4,
+            "formatter": {
+                "language_server": {
+                    "name": "biome",
+                },
+            },
+        },
+        "TSX": {
+            "tab_size": 4,
+            "formatter": {
+                "language_server": {
+                    "name": "biome",
+                },
+            },
+        },
+    },
+    "lsp": {
+        "biome": {
+            "settings": {
+                "require_config_file": true,
+            },
+        },
+    },
+    "code_actions_on_format": {
+        "source.organizeImports.biome": true,
+        "source.fixAll.biome": true,
+    },
+    "file_scan_exclusions": ["**/.DS_Store", "**/node_modules", "**/.target"],
+    "language_models": {
+        "ollama": {
+            "api_url": "http://192.168.1.254:11434",
+            "context_window": 32000,
+        },
+    },
+}
